@@ -8,10 +8,8 @@ import {
     Center,
     Link,
     Image,
-    Hide,
 } from "@chakra-ui/react";
 import { ContactInfoItem } from "../../api/Types";
-
 
 interface Props {
     contactInfo: ContactInfoItem[];
@@ -56,29 +54,45 @@ const MapAndCards = ({ contactInfo }: Props) => {
                                     {el.title}
                                 </Heading>
                             </HStack>
-                            <Hide below="md">
-                                <Link
-                                    href="https://api.whatsapp.com/send?phone=5493875116663"
-                                    isExternal
-                                    mb={3}
-                                    mt={3}
-                                    position={"absolute"}
-                                    zIndex={2}
-                                    top={-2}
-                                    right={1}
-                                    _hover={{
-                                        transform: "scale(1.1)",
-                                        cursor: "pointer",
-                                    }}
-                                >
-                                    <Center key={idx}>
-                                        <Image
-                                            src={el.whatsapp}
-                                            width={"2.5rem"}
-                                        ></Image>
-                                    </Center>
-                                </Link>
-                            </Hide>
+                            <Link
+                                href="https://api.whatsapp.com/send?phone=5493875116663"
+                                isExternal
+                                mb={3}
+                                mt={3}
+                                position={"absolute"}
+                                zIndex={2}
+                                top={{
+                                    base: "-1",
+                                    sm: "-2",
+                                    md: "-2",
+                                    lg: "-2",
+                                    xl: "-2",
+                                }}
+                                right={{
+                                    base: "-0.8",
+                                    sm: "1",
+                                    md: "1",
+                                    lg: "1",
+                                    xl: "1  ",
+                                }}
+                                _hover={{
+                                    transform: "scale(1.1)",
+                                    cursor: "pointer",
+                                }}
+                            >
+                                <Center key={idx}>
+                                    <Image
+                                        src={el.whatsapp}
+                                        width={{
+                                            base: "1.5rem",
+                                            sm: "2rem",
+                                            md: "2.5rem",
+                                            lg: "2.5rem",
+                                            xl: "2.5rem",
+                                        }}
+                                    ></Image>
+                                </Center>
+                            </Link>
                         </VStack>
                         <Divider
                             orientation={"horizontal"}
