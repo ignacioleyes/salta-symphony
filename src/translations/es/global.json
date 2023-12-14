@@ -1,0 +1,68 @@
+{
+    "navbar": {
+        "main": "Inicio",
+        "history": "Historia",
+        "staff": "Integrantes",
+        "schedule": "Programación 2024",
+        "contact": "Contacto"
+    },
+    "fadingTexts": {
+        "title": "CONDUCTORES ELÉCTRICOS",
+        "fading1": "Más de 20 años de trayectoria avalan nuestra experiencia",
+        "fading2": "Productos de la más alta calidad, fabricados en conformidad con las normas de seguridad",
+        "fading3": "Servicios personalizados a medida"
+    },
+    "homeLinks": {
+        "firstLink": "Conocé nuestroa historia",
+        "secondLink": "Conocé a nuestro integrantes",
+        "thirdLink": "Programación 2024",
+        "fourthLink": "Contacto"
+    },
+    "footer": {
+        "address": "Casa de la Cultura - Caseros 460 - CP4400 Salta Argentina"
+    },
+    "about": {
+        "visionTitle": "Nuestra Visión",
+        "visionDescription": "Ser referentes de calidad en la fabricación de conductores eléctricos y especiales, comprometidos siempre con la excelencia y el trato que brindamos anuestros clientes.",
+        "philosophyTitle": "Nuestra Filosofía",
+        "philosophyDescription": "Poniendo los valores humanos por delante, en Conduflex no buscamos ser simples porveedores. Queremos ser su aliados estratégicos y de confianza, brindando la solución que necesite y cuando la necesite.",
+        "policyTitle": "Nuestra Política",
+        "policyDescription": "Lograr los resultados y satisfacer la necesidad de nuestros clientes, trabajando en equipo con ellos en un espacio de respeto y compromiso constante.",
+        "history": "A partir de un equipo técnico y comercial altamente calificado nace en el año 2003 Conduflex S.A. Desde sus inicios la empresa se dedicó a desarrollarse en forma activa en orientación al cliente, buscando satisfacer las necesidades del mercado con productos de primera calidad y a precio competitivo. El tiempo y la confianza que depositaron en nosotros nuestros clientes, nos llevo por nuevos desafíos, permitiéndonos ser también proveedores de soluciones en materia de conducción eléctrica, para diversas industrias bajo diversos requerimientos. Hoy, más afianzados que nunca, en Conduflex buscamos ser su aliado de confianza para el crecimiento de su negocio."
+    },
+    "contact": {
+        "businessHoursTitle": "Nuestros Horarios",
+        "businessHours": "Lunes a Viernes de 9:00 hs  a 16:00 hs",
+        "contactTitle": "Como contactarnos",
+        "contact": {
+            "productionMail": "Prducción: ossalta@gmail.com",
+            "pressMail": "Prensa: prensaimd@gmail.com",
+            "phone": "Teléfono: +54-387-4220999"
+        }
+    },
+    "contactForm": {
+        "nameLabel": "Nombre",
+        "namePlaceholder": "Nombre y Apellido",
+        "nameError": "El nombre es requerido",
+        "emailLabel": "Email",
+        "emailPlaceholder": "Escribí tu email",
+        "emailError": "Tu email es requerido",
+        "emailErrorFormat": "Formato de email incorrecto",
+        "companyLabel": "Empresa",
+        "companyPlaceholder": "Nombre de la empresa",
+        "messageLabel": "Mensaje",
+        "messagePlaceholder": "Escribí un mensaje...",
+        "messageError": "El mensaje es requerido",
+        "button": "Enviar"
+    },
+    "products": {
+        "tooltipSpecs": "Ver Ficha",
+        "tooltipPdf": "Descargar",
+        "applicationTitle": "Aplicación",
+        "featuresTitle": "Características",
+        "codificationTitle": "Codificación",
+        "certifications": "Certificaciones",
+        "table": "Tabla de dimensiones",
+        "marking": "Marcación"
+    }
+}
