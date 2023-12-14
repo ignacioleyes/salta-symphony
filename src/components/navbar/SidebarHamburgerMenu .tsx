@@ -40,12 +40,16 @@ const SidebarHamburgerMenu = ({ setIsOpen }: Props) => {
             path: "/",
         },
         {
-            label: `${t("navbar.company")}`,
-            path: "/about",
+            label: `${t("navbar.history")}`,
+            path: "/history",
         },
         {
-            label: `${t("navbar.products")}`,
-            path: "/products",
+            label: `${t("navbar.staff")}`,
+            path: "/staff",
+        },
+        {
+            label: `${t("navbar.schedule")}`,
+            path: "/shedule",
         },
         {
             label: `${t("navbar.contact")}`,
