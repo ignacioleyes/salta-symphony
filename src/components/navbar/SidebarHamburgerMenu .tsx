@@ -74,7 +74,7 @@ const SidebarHamburgerMenu = ({ setIsOpen }: Props) => {
             width={"10rem"}
             height="100%"
             position="absolute"
-            zIndex={2}
+            zIndex={3}
             spacing={10}
             top={0}
             right={0}
